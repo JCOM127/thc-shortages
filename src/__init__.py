@@ -1,0 +1,2 @@
+"""Shortage detection package."""
+

@@ -1,0 +1,9 @@
+# Pipeline configuration for shortage detection.
+input_raw_dir: data/raw
+output_processed_dir: data/processed
+date_format: dayfirst  # Use DD/MM/YYYY input format.
+aging_days_threshold: 90
+currency_expected: USD
+round_decimals: 2
+partition_by_year: true
+tolerance_small_delta_usd: 0.01

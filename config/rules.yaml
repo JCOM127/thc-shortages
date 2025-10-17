@@ -1,0 +1,10 @@
+# Business rules for shortage logic evaluation.
+eligible_statuses:
+  - PAID
+  - PAID_PRICE_DISCREPANCY
+  - PROCESSING_PENDING_AMAZON_ACTION
+  - QUEUED_FOR_PAYMENT
+shortage_required_flags:
+  - Any Deductions
+  - Child_Invoice_Present
+use_strict_currency_check: true
